@@ -9,7 +9,7 @@ module.exports = {
       'md': '768px',
       'lg': '1024px',
       'xl': '1280px',
-      '2xl': '1536px',
+      '2xl': '1600px',
     },
 
     fontFamily: {
@@ -20,13 +20,12 @@ module.exports = {
     container: {
       center: true,
       screens: {
-        xs: '302px',
-        sm: '462px',
-        md: '608px',
-        lg: '90%',
-        xl: '90%',
-        '2xl': '90%',
-        '3xl': '1396px',
+        'xs': '302px',
+        'sm': '462px',
+        'md': '608px',
+        // 'lg': '90%',
+        // 'xl': '90%',
+        '2xl': '1396px',
       },
     },
 

@@ -1,4 +1,44 @@
 @tailwind base;
 @tailwind components;
-
 @tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply px-8 py-5 text-base font-altivo inline-block bg-primary text-light rounded-full uppercase hover:bg-dark;
+    }
+  
+    .btn-light{
+        @apply bg-light text-dark hover:bg-primary hover:text-light;
+    }
+  
+    .btn-dark{
+      @apply bg-dark text-light hover:bg-primary hover:text-light;
+    }
+  
+  
+    h1,h2,h3,h4,h5,h6{
+      @apply font-altivo text-secondary font-light uppercase;
+    }
+  
+    p{
+      @apply text-base font-bai text-secondary font-normal;
+    }
+  
+    h1,h2,h3{
+      @apply text-2xl;
+    }
+  
+    h4{
+      @apply text-base;
+    }
+  }
+
+  
+  /* Container */
+  
+  @media (min-width:981px) and (max-width:1600px) {
+    .container{
+    max-width:90%;
+    }
+  }
+  

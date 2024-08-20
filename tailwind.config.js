@@ -17,6 +17,19 @@ module.exports = {
       bai: ['bai-jamjuree', 'sans-serif'],
     },
 
+    container: {
+      center: true,
+      screens: {
+        xs: '302px',
+        sm: '462px',
+        md: '608px',
+        lg: '90%',
+        xl: '90%',
+        '2xl': '90%',
+        '3xl': '1396px',
+      },
+    },
+
     extend: {
 
       colors: {

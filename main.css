@@ -833,7 +833,7 @@ h4 {
 
 /* Container */
 
-@media (min-width:981px) and (max-width:1600px) {
+@media (min-width:975px) and (max-width:1600px) {
   .container{
     max-width:90%;
   }

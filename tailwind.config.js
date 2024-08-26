@@ -7,9 +7,11 @@ module.exports = {
       'xs': '375px',
       'sm': '575px',
       'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1600px',
+      'lg': '980px',
+      'xl': '1024px',
+      '2xl': '1280px',
+      '3xl': '1440px',
+      '4xl': '1600px',
     },
 
     fontFamily: {
@@ -25,7 +27,7 @@ module.exports = {
         'md': '608px',
         // 'lg': '90%',
         // 'xl': '90%',
-        '2xl': '1396px',
+        '3xl': '1396px',
       },
     },
 
